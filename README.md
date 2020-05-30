@@ -12,7 +12,14 @@
 ## 1. Fork & Clone this repository
 
 * We did this in a previous assignment. Instructions are here: https://github.com/cmcntsh/N6806_Fall2020_DevNotes/blob/master/Projects/002%20-%20Practice%20Using%20Git%20and%20GitHub/README.md
-
+* This can also be done directly in VSCode
+  * Create a new folder on your machine where you want to put this repository if you don't already have one you want to use.
+  * Copy the Clone or Download path for this repository from GitHub.
+  * In VSCode from the command pallette (Ctrl-Shift-P) run Git: Clone
+  * Paste the path into the path field which pops up
+  * Select your new folder you created on your machine
+  * A new folder for the repository with the repository files should be in the folder you selected showing in the Explorer window in VSCode on the left side.
+  
 ## Edit your README.md file
 
 * [ ] In an editor of your choice (i.e. VSCode) edit this README.md file to add the answers requested in the tables.
