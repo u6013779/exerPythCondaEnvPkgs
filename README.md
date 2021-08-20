@@ -30,6 +30,7 @@
   * He installs Miniconda. We will be using Anaconda. Don't install Miniconda.
   * Follow along with the rest of the tutorial.
   * Go ahead and create the environments as he creates them in the tutorial.
+  * (2021 update: I recommend managing environments as shown in the new Anaconda introduction video. https://anaconda.cloud/tutorials/getting-started-with-anaconda-individual-edition%3Fsource%3Dindividual-edition-tutorial) If you want to try creating the environments using the user interface for Anaconda Navigator instead of the command line shown in the Conda What and Why tutorial, that's fine. But watch the Conda What and Why tutorial to understand some of the differences between Conda environments and other types of virtual environments available in Python.
 
 ## Conda Concepts
 
