@@ -38,36 +38,58 @@
 
 |   Concept   |         Description or short answer         |
 |     ---     |                     ---                     |
-|What is the purpose of having different environments?     |(enter description or short answer here)|
-|What is the default package manager in Python?            |(enter description or short answer here)|
-|How do you manage environments and packages in Anaconda?  |(enter description or short answer here)|
-|`conda list`       |(enter description or short answer here)|
-|`conda env list`       |(enter description or short answer here)|
-|How do you keep your base environment unchanged?       |(enter description or short answer here)|
-|What is the link to the Conda cheat sheet? (link in video notes is broken)      |(enter description or short answer here)|
-|`conda create --name XXXX`       |(enter description or short answer here)|
-|`source activate XXXX`       |(enter description or short answer here)|
-|`conda install YYYY`       |(enter description or short answer here)|
-|channels in Conda       |(enter description or short answer here)|
-|`conda install -c ZZZZ YYYY`       |(enter description or short answer here)|
-|`conda config --show channels`       |(enter description or short answer here)|
-|`conda config --add channels ZZZZ`       |(enter description or short answer here)|
-|conda-forge.org       |(enter description or short answer here)|
-|`source deactivate`       |(enter description or short answer here)|
-|`conda config --get channels`       |(enter description or short answer here)|
+|What is the purpose of having different environments?     |(they let you create specific environments based on what's needed (web development, data analysis, etc.))|
+|What is the default package manager in Python?            |(pip)|
+|How do you manage environments and packages in Anaconda?  |(Conda or miniconda|
+|`conda list`       |(all of the different and default packages installed)|
+|`conda env list`       |(a list of environments available)|
+|How do you keep your base environment unchanged?       |(install different environments/packages)|
+|What is the link to the Conda cheat sheet? (link in video notes is broken)      |(docs.conda.io)|
+|`conda create --name XXXX`       |(creates a new environment)|
+|`source activate XXXX`       |(activates the new environment to use)|
+|`conda install YYYY`       |(installs a new package in a differnt environment)|
+|channels in Conda       |(path or location where conda looks for this package)|
+|`conda install -c ZZZZ YYYY`       |(allows you to use a specific channel and acess it)|
+|`conda config --show channels`       |(shows the channels/paths available)|
+|`conda config --add channels ZZZZ`       |(add channels)|
+|conda-forge.org       |(community website that has different packages to install)|
+|`source deactivate`       |(brings you back to your base/default channel)|
+|`conda config --get channels`       |(you can see that all the channels are actually still there, and organized by priority  |
 
 * After creating the environments he created in the video on your computer, what would the results of running the command `conda env list` look like with the da35 environment activated. Paste the output from your command prompt in the code block below.
 
 ```
-#Paste your results here.
+# packages in environment at /opt/anaconda3/envs/ai38:
+#
+# Name                    Version                   Build  Channel
+ca-certificates           2021.7.5             hecd8cb5_1  
+certifi                   2021.5.30        py38hecd8cb5_0  
+libcxx                    12.0.0               h2f01273_0  
+libffi                    3.3                  hb1e8313_2  
+ncurses                   6.2                  h0a44026_1  
+openssl                   1.1.1l               h9ed2024_0  
+pip                       21.0.1           py38hecd8cb5_0  
+python                    3.8.8                h88f2d9e_5  
+readline                  8.1                  h9ed2024_0  
+setuptools                52.0.0           py38hecd8cb5_0  
+sqlite                    3.36.0               hce871da_0  
+tk                        8.6.10               hb0a8c7a_0  
+wheel                     0.37.0             pyhd3eb1b0_1  
+xz                        5.2.5                h1de35cc_0  
+zlib                      1.2.11               h1de35cc_3  
+(ai38) reinhardts@Gregorys-MacBook-Air ~ % 
+
+
 
 
 ```
 * What command would you use to remove the environments you created for this exercise from your computer?
 
 ```
-#Type the command here.
+#Source deactivate
 
 ```
 ## 2021 Update
 Python, Anaconda, and many programming languages are constantly evolving. The video Conda What and Why provides a great explanation of why you may want to use virtual environments for your Python projects, and it provides a nice demonstration of how to work in the command line. However, environment management using Anaconda Navigator is more user friently than ever. I personally will be using Anaconda Navigator to manage environments and packages since it seems easier to see what is going on using the GUI. If you haven't done so already watch the introduction to Anaconda video and pay close attention to the section on using Anaconda Navigator to create environments and install packages. https://anaconda.cloud/tutorials/getting-started-with-anaconda-individual-edition%3Fsource%3Dindividual-edition-tutorial
+
+
